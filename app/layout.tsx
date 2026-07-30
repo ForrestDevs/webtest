@@ -27,6 +27,12 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <script
+        src="https://aftershot-one.vercel.app/api/widget.js"
+        data-practice="pk_live_6ce68b8d2e5f73ffb61f4a160ca879f9"
+         data-mode="button"
+        async
+      />
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
